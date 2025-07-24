@@ -50,7 +50,7 @@ export function NavMain({
 </CollapsibleTrigger>
               {item.items?.length ? (
                 <>
-                  <CollapsibleTrigger asChild>
+                  <CollapsibleTrigger asChild className="flex mt-1">
                     <SidebarMenuAction className="data-[state=open]:rotate-90">
                       <ChevronRight />
                       <span className="sr-only">Toggle</span>
